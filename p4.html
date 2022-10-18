@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fabulous Fashion and its origin</title>
+        <meta charset="utf-8">
+    
+        <!-- <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css"> -->
+    
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(21, 7, 7);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form id="myform" method="post" action="https:www.randyconnolly.com/tests/process.php">
+    <label for="fname">GoodName</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Few words about fashion</label>
+    <input type="text" id="1" name="lastname" placeholder="Fashion in your words" required >
+    <label for="mname">Fashion achievements</label>
+    <input type="text" id="2" name="lastname" placeholder="Fashion attainments" required>
+    <label for="nname">Got inspired from </label>
+    <input type="text" id="3" name="lastname" placeholder="Inspiration from favourite brands and labels" required>
+    
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value="India">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Suggestions for us</label>
+    <textarea id="suggestions for us" name="suggestions for us" placeholder="Write something.." style="height:200px"></textarea>
+    <button type="submit" form="myform" value="Submit">Submit</button>
+
+
+  </form>
+</div>
+
+</body>
+</html>
